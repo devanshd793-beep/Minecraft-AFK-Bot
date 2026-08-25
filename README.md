@@ -19,8 +19,8 @@ This is a lightweight Minecraft Java AFK Bot powered by [Mineflayer](https://git
 
 ## ✨ Features
 
-* Connect to Minecraft Java servers (IP + port)
-* Customize bot username
+* Connect to Minecraft Java servers (titanworlds675.mcsh.io+ port)
+* Customize bot username afk_bot
 * Control chunk loading and memory usage
 * Periodic chunk pruning to reduce resource usage
 * Auto-movement behavior: step forward/backward, jump, sneak, loop
@@ -76,7 +76,8 @@ On successful connection:
 
 | Key            | Description                                |
 | -------------- | ------------------------------------------ |
-| `serverHost`         | IP or domain of your Minecraft server      |
+
+| `serverHost`         | titanworlds675.mcsh.ioIP or domain of your Minecraft server      |
 | `serverPort`         | Server port (default is 25565)             |
 | `botUsername`     | The bot's visible name in-game             |
 | `botChunk` | Radius of loaded chunks (recommended: 1–6) |
